@@ -1,0 +1,56 @@
+.Menu {
+  text-align: center;
+}
+
+.SanguoshaPic {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .SanguoshaPic {
+    animation: spin 1 4s ease-in-out;
+  }
+}
+
+.MenuPage {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.menunavbar a {
+  text-align: center;
+  color: #282c34;
+  font-size: 25px;
+  padding: 6px 13px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+.menunavbar {
+  background-color: #ffd700;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10vh;
+  display: flex;
+}
